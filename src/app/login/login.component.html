@@ -1,0 +1,5 @@
+<input type="text" name="username" placeholder="帳號" [(ngModel)]="username" (keyup.enter)="Login()">
+<br><br>
+<input type="password" name="password" placeholder="密碼" [(ngModel)]="password" (keyup.enter)="Login()">
+<br><br>
+<input type="button" value="登入" (click)='Login()'>
